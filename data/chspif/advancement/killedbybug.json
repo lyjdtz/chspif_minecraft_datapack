@@ -1,0 +1,24 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "poppy"
+    },
+    "title": "菜的抠脚",
+    "description": "你怎么那么不省心呢?你怎么这么自私！",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:fly",
+  "criteria": {
+    "killedbybug": {
+      "trigger": "entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "silverfish"
+        }
+      }
+  }
+  }
+}

@@ -3,16 +3,16 @@
     "icon": {
       "id": "clock"
     },
-    "title": "牢玩家",
-    "description": "累计服务器游玩超过两百小时",
+    "title": "活化石",
+    "description": "累计服务器游玩超过五百小时",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:100hours",
+  "parent": "chspif:200hours",
   "criteria": {
-    "200": {
+    "500": {
       "trigger": "impossible"
   }
   }

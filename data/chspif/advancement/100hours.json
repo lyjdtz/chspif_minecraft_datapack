@@ -3,7 +3,7 @@
     "icon": {
       "id": "clock"
     },
-    "title": "入住！",
+    "title": "入住",
     "description": "累计服务器游玩超过一百小时",
     "frame": "challenge",
     "show_toast": true,
@@ -12,7 +12,7 @@
   },
   "parent": "chspif:chspif",
   "criteria": {
-    "chspif": {
+    "100": {
       "trigger": "impossible"
   }
   }

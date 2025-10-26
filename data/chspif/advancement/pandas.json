@@ -1,0 +1,24 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "bamboo"
+    },
+    "title": "拯救濒危物种",
+    "description": "",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:chspif",
+  "criteria": {
+    "pandas": {
+      "trigger": "bred_animals",
+      "conditions": {
+        "child": {
+          "type": ["panda"]
+        }
+      }
+  }
+  }
+}

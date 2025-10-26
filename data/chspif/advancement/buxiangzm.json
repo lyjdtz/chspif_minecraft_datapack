@@ -1,0 +1,27 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "zombie_head"
+    },
+    "title": "奇怪的僵尸",
+    "description": "是不是该丢些什么东西给这只僵尸？",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:full",
+  "criteria": {
+    "buxiangzm": {
+      "trigger": "thrown_item_picked_up_by_entity",
+      "conditions": {
+       "item": {
+        "items": "carved_pumpkin"
+       },
+       "entity": {
+        "type": "zombie"
+       }
+      }
+  }
+  }
+}

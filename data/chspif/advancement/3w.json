@@ -1,0 +1,23 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "end_stone"
+    },
+    "title": "三万？",
+    "description": "血赚3w",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:chspif",
+  "criteria": {
+    "3w": {
+      "trigger": "changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+  }
+  }
+}

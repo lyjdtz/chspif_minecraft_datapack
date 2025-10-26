@@ -1,0 +1,24 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "shulker_shell"
+    },
+    "title": "装逼我让你飞起来！",
+    "description": "",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:pandas",
+  "criteria": {
+    "fly": {
+      "trigger": "effects_changed",
+      "conditions": {
+        "source": {
+          "type": "shulker"
+        }
+      }
+  }
+  }
+}

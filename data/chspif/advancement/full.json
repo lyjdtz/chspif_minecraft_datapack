@@ -1,0 +1,34 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "elytra"
+    },
+    "title": "终极进化",
+    "description": "",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:killedbybug",
+  "criteria": {
+    "full": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "netherite_pickaxe"},
+          {"items": "netherite_shovel"},
+          {"items": "netherite_axe"},
+          {"items": "netherite_hoe"},
+          {"items": "netherite_sword"},
+          {"items": "netherite_helmet"},
+          {"items": "netherite_leggings"},
+          {"items": "netherite_boots"},
+          {"items": "totem_of_undying"},
+          {"items": "netherite_shovel"},
+          {"items": "elytra"}
+        ]
+      }
+  }
+  }
+}
