@@ -1,0 +1,19 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "clock"
+    },
+    "title": "入住！",
+    "description": "累计服务器游玩超过一百小时",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:chspif",
+  "criteria": {
+    "chspif": {
+      "trigger": "impossible"
+  }
+  }
+}

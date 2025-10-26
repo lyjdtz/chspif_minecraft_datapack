@@ -1,0 +1,26 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "obsidian"
+    },
+    "title": "嘿呦奥豪斯",
+    "description": "我要去挖___?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:chspif",
+  "criteria": {
+    "chspif": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      }
+  }
+  }
+}

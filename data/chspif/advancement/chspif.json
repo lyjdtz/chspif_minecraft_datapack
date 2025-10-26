@@ -1,0 +1,19 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "redstone"
+    },
+    "title": "欢迎来到chspif",
+    "description": "欢迎来到chspif！",
+    "background": "block/blue_ice",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chspif": {
+      "trigger": "inventory_changed"
+  }
+  }
+}
