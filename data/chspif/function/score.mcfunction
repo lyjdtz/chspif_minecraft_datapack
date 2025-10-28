@@ -34,5 +34,6 @@ scoreboard objectives add copper_shovel used:copper_shovel
 scoreboard objectives add copper_hoe used:copper_hoe
 
 scoreboard objectives add dig_numbers dummy {"text":"挖掘榜"}
+scoreboard objectives add flykm dummy {"text":"飞行榜（千米）"}
 
 #挖掘榜和分榜创建

@@ -23,7 +23,7 @@ execute if score timeboychspif time_s_triger matches 5 \
     run scoreboard objectives setdisplay sidebar dig_numbers
 
 execute if score timeboychspif time_s_triger matches 6 \
-    run scoreboard objectives setdisplay sidebar fly
+    run scoreboard objectives setdisplay sidebar flykm
 
 execute if score timeboychspif time_s_triger matches 7 \
     run scoreboard objectives setdisplay sidebar death
