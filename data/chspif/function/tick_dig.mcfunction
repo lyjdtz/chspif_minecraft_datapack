@@ -6,4 +6,5 @@ execute as @a run function chspif:wooden
 execute as @a run function chspif:iron
 execute as @a run function chspif:copper
 execute as @a run function chspif:fly
+execute as @a run function chspif:damage_taken
 #循环检测每个分榜单并加到总榜
