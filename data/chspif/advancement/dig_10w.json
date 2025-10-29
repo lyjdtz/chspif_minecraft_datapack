@@ -1,10 +1,10 @@
 { 
   "display": {
     "icon": {
-      "id": "clock"
+      "id": "iron_pickaxe"
     },
-    "title": "入住",
-    "description": "累计游玩一百小时",
+    "title": "劳工",
+    "description": "挖掘总数达到10w",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   },
   "parent": "chspif:chspif",
   "criteria": {
-    "100": {
+    "dig_10w": {
       "trigger": "impossible"
   }
   }

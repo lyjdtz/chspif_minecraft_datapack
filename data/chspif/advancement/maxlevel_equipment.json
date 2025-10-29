@@ -10,9 +10,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:killedbybug",
+  "parent": "chspif:killed_by_bug",
   "criteria": {
-    "full": {
+    "maxlevel_equipment": {
       "trigger": "inventory_changed",
       "conditions": {
         "items": [

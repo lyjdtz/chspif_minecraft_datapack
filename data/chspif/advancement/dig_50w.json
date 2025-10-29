@@ -1,18 +1,18 @@
 { 
   "display": {
     "icon": {
-      "id": "clock"
+      "id": "diamond_pickaxe"
     },
-    "title": "入住",
-    "description": "累计游玩一百小时",
+    "title": "挖掘机",
+    "description": "挖掘总数达到50w",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:chspif",
+  "parent": "chspif:dig_10w",
   "criteria": {
-    "100": {
+    "dig_50w": {
       "trigger": "impossible"
   }
   }

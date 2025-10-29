@@ -1,18 +1,18 @@
 { 
   "display": {
     "icon": {
-      "id": "clock"
+      "id": "stick"
     },
-    "title": "入住",
-    "description": "累计游玩一百小时",
+    "title": "**抽我！",
+    "description": "累计损失1w颗♥",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:chspif",
+  "parent": "chspif:enter_ends",
   "criteria": {
-    "100": {
+    "damaged_heart_1w": {
       "trigger": "impossible"
   }
   }

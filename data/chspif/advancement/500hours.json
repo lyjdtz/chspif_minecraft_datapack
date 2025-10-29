@@ -4,7 +4,7 @@
       "id": "clock"
     },
     "title": "活化石",
-    "description": "累计服务器游玩超过五百小时",
+    "description": "累计游玩五百小时",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

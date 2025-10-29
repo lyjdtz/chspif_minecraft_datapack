@@ -1,22 +1,22 @@
 { 
   "display": {
     "icon": {
-      "id": "bamboo"
+      "id": "shulker_shell"
     },
-    "title": "拯救濒危物种",
+    "title": "装逼我让你飞起来！",
     "description": "",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:chspif",
+  "parent": "chspif:breed_pandas",
   "criteria": {
-    "pandas": {
-      "trigger": "bred_animals",
+    "damaged_by_shulker": {
+      "trigger": "effects_changed",
       "conditions": {
-        "child": {
-          "type": ["panda"]
+        "source": {
+          "type": "shulker"
         }
       }
   }

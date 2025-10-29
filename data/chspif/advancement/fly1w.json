@@ -1,10 +1,10 @@
 { 
   "display": {
     "icon": {
-      "id": "clock"
+      "id": "elytra"
     },
-    "title": "入住",
-    "description": "累计游玩一百小时",
+    "title": "初探星河",
+    "description": "累计飞行1w米",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   },
   "parent": "chspif:chspif",
   "criteria": {
-    "100": {
+    "fly1w": {
       "trigger": "impossible"
   }
   }

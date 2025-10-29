@@ -10,9 +10,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:hyahs",
+  "parent": "chspif:obsidian",
   "criteria": {
-    "killlyjdtz": {
+    "kill_rabbit": {
       "trigger": "player_killed_entity",
       "conditions": {
         "entity": {

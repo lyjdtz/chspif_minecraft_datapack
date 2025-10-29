@@ -12,7 +12,7 @@
   },
   "parent": "chspif:chspif",
   "criteria": {
-    "3w": {
+    "enter_ends": {
       "trigger": "changed_dimension",
       "conditions": {
         "from": "minecraft:overworld",

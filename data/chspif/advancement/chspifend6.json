@@ -11,9 +11,9 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "chspif:zombie_wear_pumpkin",
+  "parent": "chspif:fly10w",
   "criteria": {
-    "chspifend1": {
+    "chspifend6": {
       "trigger": "inventory_changed"
   }
   }

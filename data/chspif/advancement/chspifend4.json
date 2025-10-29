@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "chspif:killlyjdtz",
+  "parent": "chspif:kill_rabbit",
   "criteria": {
     "chspifend4": {
       "trigger": "inventory_changed"

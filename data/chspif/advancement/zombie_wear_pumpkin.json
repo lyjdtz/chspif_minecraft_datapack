@@ -10,9 +10,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:full",
+  "parent": "chspif:maxlevel_equipment",
   "criteria": {
-    "buxiangzm": {
+    "zombie_wear_pumpkin": {
       "trigger": "thrown_item_picked_up_by_entity",
       "conditions": {
        "item": {

@@ -10,9 +10,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:fly",
+  "parent": "chspif:damaged_by_shulker",
   "criteria": {
-    "killedbybug": {
+    "killed_by_bug": {
       "trigger": "entity_killed_player",
       "conditions": {
         "entity": {
