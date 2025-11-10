@@ -32,3 +32,7 @@ execute if score timeboychspif time_s_triger matches 7 \
 
 
 function chspif:tick_dig
+
+execute store result bossbar minecraft:gongao value run data get entity @p Health
+
+bossbar set minecraft:gongao players @a 
