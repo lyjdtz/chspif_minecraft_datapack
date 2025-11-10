@@ -11,7 +11,7 @@ execute if score timeboychspif time_s_triger matches 2 \
     run scoreboard objectives setdisplay sidebar kill
 
 execute if score timeboychspif time_s_triger matches 3 \
-    run scoreboard objectives setdisplay sidebar info
+    run scoreboard objectives setdisplay sidebar placed_block
 
 execute if score timeboychspif time_s_triger matches 4 \
     run scoreboard objectives setdisplay sidebar damage_heart
