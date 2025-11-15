@@ -38,6 +38,5 @@ scoreboard objectives add flykm dummy {"text":"飞行榜（千米）"}
 scoreboard objectives add damage_heart dummy {"text":"抖M榜"}
 #挖掘榜和分榜创建
 
-bossbar add gongao ""
 
 scoreboard objectives add placed_block dummy "放置方块"

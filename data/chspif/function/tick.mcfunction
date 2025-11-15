@@ -33,6 +33,4 @@ execute if score timeboychspif time_s_triger matches 7 \
 
 function chspif:tick_dig
 
-execute store result bossbar minecraft:gongao value run data get entity @a[sort=random,limit=1] SelectedItemSlot
 
-bossbar set minecraft:gongao players @a 
