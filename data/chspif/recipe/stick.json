@@ -14,7 +14,7 @@
         "id":"wooden_hoe",
         "components": {
             "enchantments": {
-                "knockback": 10
+                "knockback": 20
             },
             "break_sound": {
                 "sound_id": "minecraft:entity.player.burp"
